@@ -8,7 +8,7 @@ resources:
 - name: pipeline-repository
   type: git
   source:
-    uri: {{ urñ-pipeline-repository }}
+    uri: {{ url-pipeline-repository }}
     branch: {{ pipeline-branch }}
 
 jobs:
