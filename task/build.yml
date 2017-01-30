@@ -1,0 +1,17 @@
+platform: linux
+
+
+image_resource:
+  type: docker-image
+  source:  
+    repository: ansible/ubuntu14.04-ansible
+  
+inputs:
+- name: project-repository
+  path: project-repository
+- name: pipeline-repository
+  path: pipeline-repository
+
+run:
+  path: bash 
+  args: [echo hello] 
