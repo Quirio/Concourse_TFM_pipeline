@@ -1,2 +1,2 @@
 url-project-repository: https://github.com/Quirio/CookAdventure_TFM_UNIR.git
-url-pipeline-repository: 
+url-pipeline-repository: https://github.com/Quirio/Concourse_parametrized_pipeline.git 
