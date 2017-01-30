@@ -1,0 +1,20 @@
+resources:
+- name: project-repository
+  type: git
+  source:
+    uri: {{ url-project-repository }}
+    branch: {{ project-branch }}
+
+- name: pipeline-repository
+  type: git
+  source:
+    uri: {{ urñ-pipeline-repository }}
+    branch: {{ pipeline-branch }}
+
+jobs:
+- name: build
+  plan:
+  - get: pipeline-repository
+  - get: project-repository
+  - task: build
+    file: pipeline-repository/tasks/build.yml 
