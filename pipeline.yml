@@ -20,4 +20,4 @@ jobs:
   - get: pipeline-repository
   - get: project-repository
   - task: build
-    file: pipeline-repository/tasks/build.yml 
+    file: Concourse_TFM_pipeline/tasks/build.yml 
