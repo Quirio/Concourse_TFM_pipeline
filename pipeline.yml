@@ -4,16 +4,13 @@ resources:
   source:
     uri:  https://github.com/Quirio/CookAdventure_TFM_UNIR.git  
     branch: master
-    params:
-      from: vars.yml
+
 - name: pipeline-repository
   type: git
   source:
     uri:  https://github.com/Quirio/Concourse_TFM_pipeline.git
     branch: develop
-    params:
-      from: vars.yml
-
+    
 jobs:
 - name: build
   plan:
