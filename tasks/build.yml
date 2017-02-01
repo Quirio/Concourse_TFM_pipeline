@@ -13,4 +13,9 @@ inputs:
   path: pipeline-repository
 
 run:
-  path: ls 
+  path: mkdir
+  args: [/var/www/laravel]
+
+run:
+  path: mv
+  args: [project-repository/app /var/www/laravel]
