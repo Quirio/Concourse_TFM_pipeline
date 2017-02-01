@@ -9,7 +9,7 @@ resources:
 - name: pipeline-repository
   type: git
   source:
-    uri:  https://github.com/Quirio/Concourse_parametrized_pipeline.git
+    uri:  https://github.com/Quirio/Concourse_TFM_pipeline.git
     branch: develop
     params:
       from: vars.yml
