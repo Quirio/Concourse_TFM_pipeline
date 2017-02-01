@@ -19,3 +19,11 @@ run:
 run:
   path: mv
   args: [project-repository/app , /var/www/laravel/app]
+
+run:
+  path: mv
+  args: [project-repository/public , /var/www/laravel/public]
+
+run:
+  path: curl
+  args: [localhost:80] 
