@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:  
-    repository: ansible/ubuntu14.04-ansible
+    repository: eboraas/laravel
   
 inputs:
 - name: project-repository
@@ -13,5 +13,4 @@ inputs:
   path: pipeline-repository
 
 run:
-  path: bash 
-  args: [echo hello] 
+  path: ls 
