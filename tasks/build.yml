@@ -26,4 +26,4 @@ run:
 
 run:
   path: curl
-  args: [localhost:80] 
+  args: ["localhost:80"] 
