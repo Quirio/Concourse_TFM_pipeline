@@ -18,4 +18,4 @@ run:
 
 run:
   path: mv
-  args: [project-repository/app /var/www/laravel]
+  args: ["project-repository/app" "/var/www/laravel"]

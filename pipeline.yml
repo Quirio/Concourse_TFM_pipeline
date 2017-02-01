@@ -9,7 +9,7 @@ resources:
   type: git
   source:
     uri:  https://github.com/Quirio/Concourse_TFM_pipeline.git
-    branch: develop
+    branch: feature
     
 jobs:
 - name: build
