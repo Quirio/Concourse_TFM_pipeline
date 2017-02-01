@@ -6,6 +6,8 @@ image_resource:
   source:  
     repository: eboraas/laravel
   
+  params:
+    ports: 80  
 inputs:
 - name: project-repository
   path: project-repository
